@@ -6,13 +6,13 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CreamMat
-  m_Shader: {fileID: 4800000, guid: d02760e89d4b3ce4daea2a6b4cb4eabe, type: 3}
+  m_Name: CreamImageMat
+  m_Shader: {fileID: 4800000, guid: 2d9ffd28072bb4042bf7d698a45de05a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -55,7 +55,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BaseColor: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -63,8 +62,6 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightAColor: 0
-    - _LightBColor: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -72,11 +69,14 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StaticTime: 17.9
-    - _TestA: -0.13
-    - _TestB: 1.63
-    - _TestC: 1.19
-    - _TestD: 0.7
+    - _StaticTime: -3.03
+    - _TestA: 13.33
+    - _TestB: -12.28
+    - _TestC: -0.53
+    - _TestD: 11.8
+    - _TestE: 1
+    - _TestF: 0
+    - _TestG: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
@@ -84,6 +84,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FrenelColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightAColor: {r: 0.7941176, g: 0.7941176, b: 0.7941176, a: 1}
-    - _LightBColor: {r: 1, g: 0.3517241, b: 0, a: 1}
-    - _SpecColor: {r: 1, g: 0.6827587, b: 0, a: 1}
+    - _LightAColor: {r: 0, g: 1, b: 0.89985085, a: 1}
+    - _LightBColor: {r: 0, g: 0.39747244, b: 0.972549, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

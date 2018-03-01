@@ -1,0 +1,11 @@
+/Library/
+/Temp/
+/JulianQuaternion.csproj
+/JulianQuaternion.Editor.csproj
+/JulianQuaternion.Plugins.csproj
+/JulianQuaternion.sln
+/Packages/
+/.vs/
+/obj/
+Assembly-CSharp.csproj
+/UnityPackageManager/
