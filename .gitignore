@@ -9,3 +9,5 @@
 /obj/
 Assembly-CSharp.csproj
 /UnityPackageManager/
+/UnityEditor.StandardEvents.csproj
+/Unity.PackageManagerUI.Editor.csproj
